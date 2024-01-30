@@ -68,10 +68,11 @@ L'allenatore guadagna gli stessi punti della squadra che allena:
 | Fa entrare un giocatore che segna | 1
 | Fa entrare un giocatore che fa doppietta | 3 
 | Fa entrare un giocatore che fa tripletta o più | 4 |
-| Cambia modulo aggiungendo 1 difensore e togliendo 1 attaccante ma subisce gol | -0,5
-| Cambia modulo aggiundendo 1 attaccante e togliendo 1 difensore e segna | 1
-| Ammonizione | -1 |
-| Espulsione | -2 |
+| Fa entrare un giocatore che fa assist | 0,5 |
+| Cambia modulo aggiundendo 1 attaccante e togliendo 1 difensore e segna | 1 
+| Cambia modulo aggiungendo 1 difensore e togliendo 1 attaccante e subisce gol | -0,5
+| Ammonizione | -1 
+| Espulsione | -2 
 
 ## Modificatore
 ### Difesa
