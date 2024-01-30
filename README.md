@@ -112,11 +112,11 @@ L'allenatore guadagna gli stessi punti della squadra che allena:
 ### Switch (Modificato)
 - Permette agli allenatori di selezionare due giocatori prima dell'inizio della giornata, chi ottiene un voto in pagella maggiore guadagna la titolarità.
 
-# Periodo
+# Giornate Fantacalcio
 Si segue **esattamente** il calendario di Seria A
 
 ## MERCATO
-### Aste
+### Periodi
 - Pre-campionato
 - Riparazione post-mercato
 - Pre-Mercato_invernale
@@ -126,6 +126,7 @@ Si segue **esattamente** il calendario di Seria A
 - Sempre aperti (tranne durante la giornata)
 
 #### Regole
+- Se l'asta si svolge in asincrono dura 24 ore
 - Il giocatore svincolato si può riprendere ma per lo stesso numero di crediti della prima volta
 - In caso di vendita del giocatore a campionato differente si recuperano tutti i crediti
 - Lo svincolo di un proprio giocatore da diritto alla metà dei crediti
