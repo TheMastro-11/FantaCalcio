@@ -134,18 +134,43 @@ Si segue **esattamente** il calendario di Seria A
     - Si calcola la percentuale delle giornate di assenza sul totale di quelle rimanenti alla fine del campionato
 - Se il fanta-allenatore decidesse immediatamente di acquistare un sostituto allora si aprirebbe il mercato, chiunque può competere all'asta per quel giocatore.
 
-## BONUS
+## BONUS CREDITI
 ### Per classifica vittorie
-- Primi tre posti 20 crediti
-- Dal 4-6 30 crediti
-- Dal 7-9 40 crediti
-- L'ultimo 50 crediti
+| Posizione | Crediti |
+| - | :-: |
+| 1 | 20
+| 2 | 20 
+| 3 | 20 
+| 4 | 30
+| 5 | 30 
+| 6 | 30 
+| 7 | 30 
+| 8 | 30 
+| 9 | 30 
+| 10 | 50 
 
 ### Per classifica punti
-- Primo posto 50 crediti
-- Dal 2-4 40 crediti
-- Dal 5-7 30 crediti
-- Dal 8-9 20 crediti
+| Posizione | Crediti |
+| - | :-: |
+| 1 | 50
+| 2 | 40 
+| 3 | 40 
+| 4 | 40
+| 5 | 30 
+| 6 | 30 
+| 7 | 30 
+| 8 | 20 
+| 9 | 20 
+| 10 | 20 
+
+### Altri
+| Titolo | Crediti |
+| - | :-:
+| Capo Cannoniere | 20
+| Uomo Assist | 10
+| Miglior Portiere (inviolata) | 15 
+
+
 
 ### Note
 1. **2** under21
