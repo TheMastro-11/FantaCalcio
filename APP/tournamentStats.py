@@ -20,7 +20,7 @@ class TournamentStats:
             if i["roundInfo"]["round"] == self.roundId:
                 time = i["startTimestamp"]
                 dateTime = datetime.fromtimestamp(time)
-                matches[i["homeTeam"]["name"] + " - " + i["awayTeam"]["name"]] = [dateTime.strftime("%d-%b-%Y (%H:%M)"), str(i["homeScore"]["current"]) + "-" + str(i["awayScore"]["current"])]
+                matches[i["homeTeam"]["name"] + " - " + i["awayTeam"]["name"]] = [dateTime.strftime("%d-%b-%Y (%H:%M)"), str(i["homeScore"]["current"]) + "-" + str(i["awayScore"]["current"]), i["id"]]
         return matches
     
     

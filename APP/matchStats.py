@@ -16,23 +16,32 @@ class MatchStats:
         self.incidents = self.incidentResponse.json()["incidents"]
         self.homeTeam = self.lineups["home"]["players"]
         self.awayTeam = self.lineups["away"]["players"]
-        self.teamDict = {}
+        self.teamDict = self.getTeam()
     
     def arrotonda(self, num):
         if num%0.5 >= 0.25:
             return num-num%0.5+0.5
         return num-num%0.5
     
+    def getTeam(self):
+        teamDict = {}
+        #salvo i giocatori
+        for i in self.homeTeam:
+            teamDict[i["player"]["name"]] = []
+        for i in self.awayTeam:
+            teamDict[i["player"]["name"]] = []
+        return teamDict 
+            
     def getRating(self):
         #salvo i voti dei giocatori
         for i in self.homeTeam:
-            if i["statistics"] != {}:
+            if i["statistics"] != {} and "rating" in i["statistics"]:
                 rate = self.arrotonda(i["statistics"]["rating"]) #pagella
                 fv = rate #fantaVoto
                 self.teamDict[i["player"]["name"]] = [rate,fv]
 
         for i in self.awayTeam:
-            if i["statistics"] != {}:
+            if i["statistics"] != {} and "rating" in i["statistics"]:
                 rate = self.arrotonda(i["statistics"]["rating"]) #pagella
                 fv = rate #fantaVoto
                 self.teamDict[i["player"]["name"]] = [rate,fv]

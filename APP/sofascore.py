@@ -1,9 +1,14 @@
 import matchStats
 import tournamentStats
 
-#match = matchStats.MatchStats("11406889")
-round = tournamentStats.TournamentStats(22)
 
-#match.getRating()
-#match.getEvents()
-print(round.matches)
+round = tournamentStats.TournamentStats(22)
+roundDict = {}
+for i in round.matches:
+    match = matchStats.MatchStats(round.matches[i][2]) #genero nuova partita
+    match.getRating()
+    match.getEvents()   
+    roundDict[i] = match.teamDict
+
+
+print(roundDict)
